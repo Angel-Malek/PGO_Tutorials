@@ -33,20 +33,22 @@ public class Engine {
         if (ProductionYear > 2000) {
 
             if (Power > 20000) {
-                System.out.println("Engine is Eco");
-                boolean EngineEco = true;
-                return this.EngineEco;
+              //  System.out.println("Engine is Eco");
+               // boolean EngineEco = true;
+               // return this.EngineEco;
+                return  true;
             } else {
                 //  boolean EngineEco = false;
-                System.out.println("Engine is not Eco");
-                boolean EngineEco =false;
-                return this.EngineEco;
+              //  System.out.println("Engine is not Eco");
+               // boolean EngineEco =false;
+               // return this.EngineEco;
+                return false;
             }
         } else {
-            System.out.println("Engine is not Eco");
-            boolean EngineEco = false;
-            return this.EngineEco;
-
+          //  System.out.println("Engine is not Eco");
+           // boolean EngineEco = false;
+           // return this.EngineEco;
+return  false;
         }
     }
       public boolean getEco (){ return this.EngineEco; }

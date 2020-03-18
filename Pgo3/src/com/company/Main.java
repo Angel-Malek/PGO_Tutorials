@@ -14,13 +14,13 @@ public class Main {
         int Number = A.getNumber();
         int Year = Ab.getProductionYear();
         double Power = Ab.getPower();
-        boolean Eco = Ab.getEco();
+        boolean Eco = Ab.TypeEngine();
 
 
         //  System.out.println(Eco);
-        System.out.println("Brand: " + Brand + " number of seats: " + Number + " engine was made in: " + Year + " engine power rate is: " + Power);
+        System.out.println("Brand: " + Brand + " number of seats: " + Number + " engine was made in: " + Year + " engine power rate is: " + Power + " Is engine eco?  " + Eco);
 
-        System.out.println(Eco);
+       // System.out.println(Eco);
 
 
     }
