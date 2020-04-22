@@ -12,13 +12,13 @@ public class Furniture {
     }
 
     public double getPrice() {
-        System.out.println("price, just price: " + price);
+       // System.out.println("price, just price: " + price);
         return price;
     }
 
 
     public double gettingprice() {
-        System.out.println("price with VAT: " + (price * VAT + price));
+       // System.out.println("price with VAT: " + (price * VAT + price));
         return price * VAT + price;
     }
 //эта  работает алилуя!!!!!!!!!!
