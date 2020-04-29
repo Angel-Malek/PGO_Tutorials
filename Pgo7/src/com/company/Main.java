@@ -59,8 +59,10 @@ public class Main {
         // made 3 room arrays
         List<Room> HouseOne = new LinkedList<>();
 
-        House NumberOneHouse = new House("Alchevski st. 141",HouseOne);
+        House.CreateHouse("Alchevski st. 141", HouseOne);
         HouseOne.add(bedroom);
+        System.out.println();
+
 
 
 

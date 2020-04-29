@@ -5,7 +5,7 @@ public class Furniture {
     double price;
     double VAT = 0.15;
 
-    public Furniture(String name, int price) {
+    public Furniture(String name, double price) {
         this.name = name;
         this.price = price;
         this.VAT = VAT;
