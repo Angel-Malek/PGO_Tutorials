@@ -24,6 +24,7 @@ public class Main {
         Toilet.add(toilet);
 
         House.CreateHouse("Sasnki",Toilet);
+     //   System.out.println( я тут хочу вывести комнаты командой гетрумлис (любой из всех) а не одна не вызываеться);
 
 
 
